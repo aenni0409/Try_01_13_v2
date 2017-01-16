@@ -2,7 +2,7 @@
 
 **I am a graduate student in Department of Statistics, UC Davis.**
 
-Here have my projects, coding, resume, and usefull tools for statistics, data analysis.
+Here has my projects, coding, resume, and usefull tools for statistics, data analysis.
 
 You can use the [editor on GitHub](https://github.com/aenni0409/Try_01_13_v2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
