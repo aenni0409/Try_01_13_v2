@@ -5,9 +5,10 @@
   
   <body>
     
-    {% include header.html %}
-    
     <section class="page-header">
+      
+      {% include header.html %}
+      
       <h1 class="project-name"> Hi! I'm Chia-Hui </h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
