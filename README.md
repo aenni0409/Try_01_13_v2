@@ -1,3 +1,3 @@
- ## Welcome to My GitHub Pages
+ **Welcome to My GitHub Pages**
  
  **This web page is based on the github official theme**
