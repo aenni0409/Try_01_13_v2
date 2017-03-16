@@ -1,5 +1,5 @@
 
-<h3>  My name is Chia-Hui. There are my working courses, projects, and myself </h3>
+<h3>  My name is Chia-Hui. Here are my working courses, projects, and myself. </h3>
 
 <p>I am now a Master student in Statistics at University of California Davis and plannig to graduate on December 2017. I enjoyed in solving problem by using data analysis and statistics. Recently, my study mainly focus on data preprocessing and machine learning. Moreover, my programming skills include R, Python, SQLite, MATLAB, and Git.</p>
 
