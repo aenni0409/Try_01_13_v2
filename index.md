@@ -1,7 +1,3 @@
----
-layout: default
----
-
 **My name is Chia-Hui. I come from Taiwan. Here is my course work, project, and myself!** </br>
 
 Oh! By the way, I am the food lover. Especially Japanese foods!<br>
