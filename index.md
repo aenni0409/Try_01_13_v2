@@ -2,7 +2,7 @@
 <h3>  My name is Chia-Hui. Here are my working courses, projects, and me. </h3>
 
 <img src="/fig/IMG_4593.jpg" class="wrap align-left" alt="Profile Image" style="width:208px;height:278px;"> 
-<br><br>
+<br><br><br>
 I am now a Master student in Statistics at University of California Davis and plannig to graduate on December 2017. I enjoyed solving problem by applying data analysis and statistics. Statistics just like a language  to express  every uncertainty by applying numbers. Recently, my study mainly focus on data preprocessing and machine learning. My programming skills include R, Python, SQLite, MATLAB, and Git.
 <br><br><br>
 <p>
