@@ -3,7 +3,7 @@
 
 <p>I am now a Master student in Statistics at University of California Davis and plannig to graduate on December 2017. I enjoyed solving problem by applying data analysis and statistics. Statistics just like a language  to express  every uncertainty by applying numbers. Recently, my study mainly focus on data preprocessing and machine learning. My programming skills include R, Python, SQLite, MATLAB, and Git.</p>
 
-<p>My interest in statistics is wide. I achieved my bachelor degree which is B.S in Business Administration at National Cheng Kung University. Therefore, I learned and worked on how to apply statistics methods on solving business problems. On the other hand, I also applied statistics on medical researches. My undergradte project focused on genetic data and my independent study during my exchange period focused on the causal inference on fMRI data. </p>
+<p>My interest in statistics is wide. I achieved my bachelor degree which is B.S in Business Administration at National Cheng Kung University. Therefore, I learned and worked on how to apply statistics methods on solving business problems. On the other hand, I also applied statistics on medical researches. My undergradate project focused on genetic data and my independent study during my exchange period focused on the causal inference on fMRI data. </p>
 
 
 <p>Oh! By the way, I am a food lover. Especially Japanese foods! Ramen, Udon, Sushi,...... (Actually that's the main reason why I went to Japane to be an exchange student and gained 3 pounds.....)</p><br>
