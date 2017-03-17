@@ -11,7 +11,7 @@ I am now a Master student in Statistics at University of California Davis and pl
 My interest in statistics is wide. I achieved my bachelor degree which is B.S in Business Administration at National Cheng Kung University. Therefore, I learned and worked on how to apply statistics methods on solving business problems. On the other hand, I also applied statistics on medical researches. My undergradate project focused on genetic data and my independent study during my exchange period focused on the causal inference on fMRI data. 
 </p>
 
-<img src="/fig/IOkonomiyaki.jpg.jpg" class="wrap align-right" alt="Profile Image" style="width:208px;height:278px;">
+<img src="/fig/Okonomiyaki.jpg" class="wrap align-right" alt="Profile Image" style="width:208px;height:278px;">
 <p>
 Oh! By the way, I am a food lover. Especially Japanese foods! Ramen, Udon, Sushi,...... (Actually that's the main reason why I went to Japane to be an exchange student and gained 3 pounds.....)
 </p>
