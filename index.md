@@ -6,7 +6,7 @@
 <p>My interest in statistics is wide. I achieved my bachelor degree which is B.S in Business Administration at National Cheng Kung University. Therefore, I learned and worked on how to apply statistics methods on solving business problems. On the other hand, I also applied statistics on medical researches. My undergradte project focused on genetic data and my independent study during my exchange period focused on the causal inference on fMRI data. </p>
 
 
-<p>Oh! By the way, I am a food lover. Especially Japanese foods! Ramen, Udon, Sushi,...... (Actually that's the main reason why I went to Japane to be an exchange student and gained 3 pounds.....)</p><br><br><br>
+<p>Oh! By the way, I am a food lover. Especially Japanese foods! Ramen, Udon, Sushi,...... (Actually that's the main reason why I went to Japane to be an exchange student and gained 3 pounds.....)</p><br>
 
 <p>If you want to know more about my research, study OR FOOOOOOOOOD and  Japan, just 
 <a href="mailto:aenni0409@gmail.com?Subject=Hello" target="_top">contact me</a>!.</p>
