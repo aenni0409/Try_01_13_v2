@@ -32,6 +32,7 @@ permalink: /project/141B/
 <a href="http://school-ratings.com/counties/Alameda.html?type=HS&rankFilter=10)">School Rating</a> <br>
 <a href="https://www.census.gov/quickfacts/table/PST045216/06">U.S. Census Bureau</a> <br>
 <a href="https://ucr.fbi.gov">Federal Bureau of Investigation</a> <br>
+<a href="https://en.wikipedia.org/wiki/Southern_California#Counties">Wikipedia For Southern California</a> <br>
 
 <h3> Data Description </h3>
 
@@ -76,9 +77,11 @@ This is a time series plot to describe the number of houses available in all the
     hosuing price counties in 2015 are San Francisco, San Mateo, Marin, Santa Clara, and Santa Cruz. Those five counties are all near Bay Area. For 2016, the top five most expensive housing price counties are San Francisco, San Mateo, Marin, Santa Clara, and Alameda. Similary, those two years are all near Bay Area.</p>
   
 <div>
-        <a href="https://plot.ly/~aenni0409/149/?share_key=LkvhYOxc9o2BO3dQkGGwtp" target="_blank" title="plot from API (1)" style="display: block; text-align: center;"><img src="https://plot.ly/~aenni0409/149.png?share_key=LkvhYOxc9o2BO3dQkGGwtp" alt="plot from API (1)" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-        <script data-plotly="aenni0409:149" sharekey-plotly="LkvhYOxc9o2BO3dQkGGwtp" src="https://plot.ly/embed.js" async></script>
+    <a href="https://plot.ly/~aenni0409/195/?share_key=XbZ0Mtq8KBB6ruwq1vWbAp" target="_blank" title="plot from API (17)" style="display: block; text-align: center;"><img src="https://plot.ly/~aenni0409/195.png?share_key=XbZ0Mtq8KBB6ruwq1vWbAp" alt="plot from API (17)" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="aenni0409:195" sharekey-plotly="XbZ0Mtq8KBB6ruwq1vWbAp" src="https://plot.ly/embed.js" async></script>
 </div>
+
+
 
 
 
@@ -114,6 +117,17 @@ This is a time series plot to describe the number of houses available in all the
 
 <p>The box plot showed the minimum, maximum, 25%, median, and 75% of the sold price in 2015 for Northern CA and Southern CA separately. The dash line represent the mean sold price. From the plot, price in Northern and Southern are distributed differently. However, their mean are close. To test if two price mean are the same, we do the two sample t test with the null hypothesis that the difference of two mean are zero. Base on the result of hypothesis, the p-value is large. We can conclude that two price mean are the same. </p>
 
+<pre><code>## 
+##  Welch Two Sample t-test
+## 
+## data:  CA_price15$sold_15 by CA_price15$district
+## t = -1.0364, df = 19.248, p-value = 0.3128
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##  -176277.24   59446.93
+## sample estimates:
+## mean in group north mean in group south 
+##            339166.9            397582.1</code></pre>
 
 
 <h4> 3. Income vs Housing Price </h4>
@@ -166,8 +180,24 @@ This interactive plot shows the relationship between average median sold house p
 </p>
 
 
+<h4> 6. Criminal Rate vs Housing Price </h4>
+<div>
+    <a href="https://plot.ly/~63xinxin/4/?share_key=zcMf14QGDeRcg3rLVfj5TB" target="_blank" title="Housing-Price-vs-Criminal-Rate-in-2015" style="display: block; text-align: center;"><img src="https://plot.ly/~63xinxin/4.png?share_key=zcMf14QGDeRcg3rLVfj5TB" alt="Housing-Price-vs-Criminal-Rate-in-2015" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="63xinxin:4" sharekey-plotly="zcMf14QGDeRcg3rLVfj5TB" src="https://plot.ly/embed.js" async></script>
+</div>
+<p> (a)The size of those points are population size. From this plot we can find out that there is negative relationship between housing price and criminal rate. The larger the price, the smaller the criminal rate.<br> (b)Even though there is overlap between counties of high population and counties of low population, regions with small population tends to have higher criminal rate. This is a very interesting result. Because, most of the time we will think that if there are more people, there tends to be have larger criminal rate. <br> (c) Counties with larger population tend to have higher housing price.<br> Now, let's look at some unnormal counties. For example in San Francisco, it has the largest housing price and criminal rate. 
+</p>
+
+<h4> 7.Criminal Rate From 2005 to 2015 </h4>
+<div>
+    <a href="https://plot.ly/~63xinxin/32/?share_key=XP5ZFFRjLga6cYRETQNlWP" target="_blank" title="plot from API (12)" style="display: block; text-align: center;"><img src="https://plot.ly/~63xinxin/32.png?share_key=XP5ZFFRjLga6cYRETQNlWP" alt="plot from API (12)" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="63xinxin:32" sharekey-plotly="XP5ZFFRjLga6cYRETQNlWP" src="https://plot.ly/embed.js" async></script>
+</div>
+<p> The size of the points depend on value of the housing price those years. In this plot we can see that in 2006, the criminal rate and housing price were very high. So the value in 2016 can be seen as outlier or unnormal case. For the points in other years we can find out a decrease trend of criminal rate through time. But there is a slightly increase for criminal rate in 2015. For housing price, there is also a decreasing trend from 2006 to 2012. And housing price starts to increase from 2013 to 2015. This plot implies that housing price has a increase trend in the future.</p>
 
 
 
 <h3> Conclusion</h3>
+
+
 
