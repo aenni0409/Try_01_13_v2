@@ -3,9 +3,10 @@
 
 <img src="/fig/IMG_4593.jpg" class="post-image-left" alt="Profile Image" style="width:208px;height:278px;"> 
 <br><br><br>
-<div text-align: justify;　text-justify: auto>
+<div style=text-align: justify;　text-justify: auto>
 I am now a Master student in Statistics at University of California Davis and plannig to graduate on December 2017. I enjoyed solving problem by applying data analysis and statistics. Statistics just like a language  which can express uncertainty by using numbers. Recently, my study mainly focus on data preprocessing and statistics machine learning. My programming skills include R, Python, SQLite, MATLAB, and Git.
-<\div>
+</div>
+
 <br><br><br>
 <p>
 My interest in statistics is wide. I achieved my bachelor degree which is B.S in Business Administration at National Cheng Kung University. Therefore, I learned and worked on how to apply statistics methods on solving business problems. On the other hand, I also applied statistics on medical researches. My undergradate project focused on genetic data and my independent study during my exchange period focused on the causal inference on fMRI data. 
