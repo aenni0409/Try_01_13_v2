@@ -1,5 +1,5 @@
 
-<h3>  My name is Chia-Hui. Here are my working courses, <a class="link" href="/project">projects</a>, and <a class="link" href="/about">me</a>.</h3>
+<h3> <a class="link" href="/project">About my works please go this way!</a></h3>
 
 <img src="/fig/IMG_4593.jpg" class="post-image-left" alt="Profile Image" style="width:208px;height:278px;margin:10px"> 
 <br><br><br>
