@@ -77,7 +77,7 @@ a:focus, a:hover, a:active {
   left: -15px;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #4F6227;
   content: " ";
 }
 
@@ -127,19 +127,19 @@ h4 {
 
 ::selection {
   color: #fff;
-  background: #17bed2;
+  background: #4F6227;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #17bed2;
+  background: #4F6227;
   text-shadow: none;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #17bed2;
+  background: #4F6227;
   text-shadow: none;
 }
 
@@ -184,7 +184,7 @@ h4 {
   top: 0;
   right: -20px;
   font-size: 60px;
-  color: #17bed2;
+  color: #4F6227;
   content: open-quote;
 }
 
@@ -238,7 +238,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-base-bg {
   color: #fff;
-  background: #17bed2;
+  background: #4F6227;
   border-color: transparent;
   border-width: 0;
 }
@@ -387,7 +387,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .navbar-toggle:hover .toggle-icon {
-  background: #17bed2;
+  background: #4F6227;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -396,7 +396,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon:before, .header .navbar-toggle:hover .toggle-icon:after {
   width: 21px;
   height: 1px;
-  background: #17bed2;
+  background: #4F6227;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -471,7 +471,7 @@ fieldset[disabled] .btn-theme {
   right: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #4F6227;
   content: " ";
 }
 
@@ -803,7 +803,7 @@ fieldset[disabled] .btn-theme {
   	[Text Colors]
 ------------------------------------------------------------------*/
 .color-base {
-  color: #17bed2;
+  color: #4F6227;
 }
 
 .color-white {
@@ -834,7 +834,7 @@ fieldset[disabled] .btn-theme {
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
-  background: #17bed2;
+  background: #4F6227;
 }
 
 .bg-color-white {
