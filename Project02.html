@@ -58,7 +58,8 @@
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="https://aenni0409.github.io">Home</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Why">Why</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#How">How</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#How">How</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Explore">Intro</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Intro">Explore</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -112,58 +113,73 @@
                 </div>
             </div>
         </div>
-        <div id="Data">
+        <div id="Intro">
             <div class="container content-lg">
-                <h2>Data Description</h2>
+                <h2>Introduction</h2>
+                <p><b>Year Range</b> : 1996-2007
                 <p><b>Unit</b> :  Analysis based on counties in California</p>
-                <p><b>Housing Price</b> : Median Price in different categories and counties</p>
+                <p><b>Housing Price</b> : Median Price in different types of house and counties</p>
                 <p><b>Features</b> : Unemployment rate, Annual Income, Population, Criminal Rate, and School Scores</p>
                 <br></br>
-                <p> <b>Time-Series Data</b> : 
-                The housing price from 1996 to Jun 2007 was increased. 
-                However, after mid-year 2007, the price decreased sharply. 
-                One of the main reasons is the "subprime mortgage crisis" and a collapse of housing bubble started from December 2007 to June 2009. 
-                For the fill with gray is the error bar with one standard deviation. You can find that even in the California, in different counties still have significant difference in the median housing price. Therefore, we nee to discuss every county seperately later.</p>
-                 <div class='plotly_marg'>
-                    <a href="https://plot.ly/~aenni0409/64/" target="_blank" title="plot from API (28)" style="display: block; text-align: center;"> 
-                        <img src="https://plot.ly/~aenni0409/64.png" alt="plot from API (28)" style="max-width: 5%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
-                    </a>
-                    <script data-plotly="aenni0409:64" src="https://plot.ly/embed.js" async>
-                    </script>
-                </div>
-                <p><b>Median All-home price and Unemployment Rate</b> :
-                It’s clear that they might exist negative relationships. When the unemployment rate falls, the median housing price will increase. This might because that the district might be in good economic times when the unemployment rate decrease. Therefore, people would be richer and tend to buy an estate.</p>
-                <div class='plotly_marg'>
-                    <a href="https://plot.ly/~alice4926/19/?share_key=NdSlTVEZPBPUSh9D4kKjLh" target="_blank" title="unemployment_vs_sold15_plot" style="display: block; text-align: center;">
-                        <img src="https://plot.ly/~alice4926/19.png?share_key=NdSlTVEZPBPUSh9D4kKjLh" alt="unemployment_vs_sold15_plot" style="max-width: 100%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
-                    </a>
-                    <script data-plotly="alice4926:19" sharekey-plotly="NdSlTVEZPBPUSh9D4kKjLh" src="https://plot.ly/embed.js" async>                       
-                    </script>
-                </div>
-                <p><b>Criminal Rate From 2005 to 2015</b> :
-                The size of the points depend on value of the housing price those years. 
-                The value in 2016 can be seen as outlier or unnormal case. 
-                For the points in other years we can find out a decrease trend of criminal rate through time. But there is a slightly increase for criminal rate in 2015. 
-                For housing price, there is also a decreasing trend from 2006 to 2012 and housing price started to increase from 2013 to 2015.</p>
-                <div class='plotly_marg'>
-                    <a href="https://plot.ly/~63xinxin/32/?share_key=XP5ZFFRjLga6cYRETQNlWP" target="_blank" title="plot from API (12)" style="display: block; text-align: center;">
-                        <img src="https://plot.ly/~63xinxin/32.png?share_key=XP5ZFFRjLga6cYRETQNlWP" alt="plot from API (12)" style="max-width: 100%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
-                    </a>
-                    <script data-plotly="63xinxin:32" sharekey-plotly="XP5ZFFRjLga6cYRETQNlWP" src="https://plot.ly/embed.js" async></script>
-                </div>
-                <p><b>Overall features vs. Housing Price</b> :
-                Unemployment rate decreaesed when sold price increaseed in 2015 and when school scores increased. Because the distribution of Crime and Population are lefe-skew, we took log tranformation to those two features. 
-                Log-transformed Population has negative relation with income per person. 
-                Log-transformed Crime has negative relation with Log-transformed Population.</p>
-                <div class='plotly_marg'>
-                    <a href="https://plot.ly/~aenni0409/77/?share_key=YUn5DjA89OUDq02T4mfSAn" target="_blank" title="Scatterplot Matrix" style="display: block; text-align: center;">
-                        <img src="https://plot.ly/~aenni0409/77.png?share_key=YUn5DjA89OUDq02T4mfSAn" alt="Scatterplot Matrix" style="max-width: 100%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
-                    </a>
-                   <script data-plotly="aenni0409:77" sharekey-plotly="YUn5DjA89OUDq02T4mfSAn" src="https://plot.ly/embed.js" async></script>
-                </div>
-
         </div>    
-
+        <div id="Explore">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <h2>Exploration Data Analysis</h2>
+                    <p> <b>Time-Series Data</b> : 
+                    The housing price from 1996 to Jun 2007 was increased. 
+                    However, after mid-year 2007, the price decreased sharply. 
+                    One of the main reasons is the "subprime mortgage crisis" and a collapse of housing bubble started from December 2007 to June 2009. 
+                    For the fill with gray is the error bar with one standard deviation. You can find that even in the California, in different counties still have significant difference in the median housing price. Therefore, we nee to discuss every county seperately later.</p>
+                     <div class='plotly_marg'>
+                        <a href="https://plot.ly/~aenni0409/64/" target="_blank" title="plot from API (28)" style="display: block; text-align: center;"> 
+                            <img src="https://plot.ly/~aenni0409/64.png" alt="plot from API (28)" style="max-width: 5%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
+                        </a>
+                        <script data-plotly="aenni0409:64" src="https://plot.ly/embed.js" async>
+                        </script>
+                    </div>
+                    <p><b>Median All-home price and Unemployment Rate</b> :
+                    It’s clear that they might exist negative relationships. When the unemployment rate falls, the median housing price will increase. This might because that the district might be in good economic times when the unemployment rate decrease. Therefore, people would be richer and tend to buy an estate.</p>
+                    <div class='plotly_marg'>
+                        <a href="https://plot.ly/~alice4926/19/?share_key=NdSlTVEZPBPUSh9D4kKjLh" target="_blank" title="unemployment_vs_sold15_plot" style="display: block; text-align: center;">
+                            <img src="https://plot.ly/~alice4926/19.png?share_key=NdSlTVEZPBPUSh9D4kKjLh" alt="unemployment_vs_sold15_plot" style="max-width: 100%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
+                        </a>
+                        <script data-plotly="alice4926:19" sharekey-plotly="NdSlTVEZPBPUSh9D4kKjLh" src="https://plot.ly/embed.js" async>                       
+                        </script>
+                    </div>
+                    <p><b>Criminal Rate From 2005 to 2015</b> :
+                    The size of the points depend on value of the housing price those years. 
+                    The value in 2016 can be seen as outlier or unnormal case. 
+                    For the points in other years we can find out a decrease trend of criminal rate through time. But there is a slightly increase for criminal rate in 2015. 
+                    For housing price, there is also a decreasing trend from 2006 to 2012 and housing price started to increase from 2013 to 2015.</p>
+                    <div class='plotly_marg'>
+                        <a href="https://plot.ly/~63xinxin/32/?share_key=XP5ZFFRjLga6cYRETQNlWP" target="_blank" title="plot from API (12)" style="display: block; text-align: center;">
+                            <img src="https://plot.ly/~63xinxin/32.png?share_key=XP5ZFFRjLga6cYRETQNlWP" alt="plot from API (12)" style="max-width: 100%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
+                        </a>
+                        <script data-plotly="63xinxin:32" sharekey-plotly="XP5ZFFRjLga6cYRETQNlWP" src="https://plot.ly/embed.js" async></script>
+                    </div>
+                    <p><b>Overall features vs. Housing Price</b> :
+                    Unemployment rate decreaesed when sold price increaseed in 2015 and when school scores increased. Because the distribution of Crime and Population are lefe-skew, we took log tranformation to those two features. 
+                    Log-transformed Population has negative relation with income per person. 
+                    Log-transformed Crime has negative relation with Log-transformed Population.</p>
+                    <div class='plotly_marg'>
+                        <a href="https://plot.ly/~aenni0409/77/?share_key=YUn5DjA89OUDq02T4mfSAn" target="_blank" title="Scatterplot Matrix" style="display: block; text-align: center;">
+                            <img src="https://plot.ly/~aenni0409/77.png?share_key=YUn5DjA89OUDq02T4mfSAn" alt="Scatterplot Matrix" style="max-width: 100%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
+                        </a>
+                       <script data-plotly="aenni0409:77" sharekey-plotly="YUn5DjA89OUDq02T4mfSAn" src="https://plot.ly/embed.js" async></script>
+                    </div>
+                    <p><b>Compound Annual Growth Rate(CAGR) for recent five year (2012-2016)</b> :
+                    CAGR in Colusa, San Benito, Stanislaus, and Solano, and San Joaquin have highest positive growth rate. 
+                    On the other hand, Del Norte, the northest county in California, is the only one with negative growth rate.</p>
+                    <div class='plotly-marg'>
+                    <a href="https://plot.ly/~aenni0409/193/?share_key=7gNLmHmPwNZPMHQAuixSyr" target="_blank" title="CAGR" style="display: block; text-align: center;">
+                        <img src="https://plot.ly/~aenni0409/193.png?share_key=7gNLmHmPwNZPMHQAuixSyr" alt="CAGR" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
+                    </a>
+                    <script data-plotly="aenni0409:193" sharekey-plotly="7gNLmHmPwNZPMHQAuixSyr" src="https://plot.ly/embed.js" async></script>
+                    </div>
+                 </div>
+            </div>
+        </div>
         <!--========== PAGE LAYOUT ==========-->
 
         <!-- Contact -->
@@ -200,10 +216,11 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
+                        <a class="logo-wrap" href="#body">
                         <img class="footer-logo" src="img/logo.png" alt="Acecv Logo">
                     </div>
                     <div class="col-xs-6 text-right sm-text-left">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/acecv/">Acecv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                        <p class="margin-b-0">Copyright©<a class="fweight-700" href="http://www.github.com/aenni0409">Anita Shen</a> 2018. Reference to <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
                     </div>
                 </div>
                 <!--// end row -->
