@@ -60,6 +60,7 @@
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#How">How</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Intro">Intro</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Explore">Explore</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Results">Results</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -193,18 +194,38 @@
                     If we take a closer look at southern part of California, the highest score region is Irvien (0.6744). The second runner up is Santa Barbara (0.6471). Because Los Angeles has the most number of schools in California, the score range may be quite different. It does not the top rank county in southern part of California. The average score is 0.57.
                     </p>
                     <div class='plotly-marg'>
-                    <a href="https://plot.ly/~danielle91515/3/?share_key=JAKR1issa4h5YSqNcfuahN" target="_blank" title="county-level-choropleths-python" style="display: block; text-align: center;">
+                        <a href="https://plot.ly/~danielle91515/3/?share_key=JAKR1issa4h5YSqNcfuahN" target="_blank" title="county-level-choropleths-python" style="display: block; text-align: center;">
                         <img src="https://plot.ly/~danielle91515/3.png?share_key=JAKR1issa4h5YSqNcfuahN" alt="county-level-choropleths-python" style="max-width: 50%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
-                    </a>
-                    <script data-plotly="danielle91515:3" sharekey-plotly="JAKR1issa4h5YSqNcfuahN" src="https://plot.ly/embed.js" async></script>
+                       </a>
+                        <script data-plotly="danielle91515:3" sharekey-plotly="JAKR1issa4h5YSqNcfuahN" src="https://plot.ly/embed.js" async></script>
                     </div>
                     <p>
-                    This picture shows the variance of school scores in each county. It is interesting to see that the variance of los angeles is not huge. That means the reason Los Angeles is not the top rated county for school is that all the school scores in Los Angeles are not high. Marin, San Jose and San Francisco all have smaller variance. That means all the schools in those counties perform well.
+                    Picture in the below shows the variance of school scores in each county. It is interesting to see that the variance of los angeles is not huge. That means the reason Los Angeles is not the top rated county for school is that all the school scores in Los Angeles are not high. Marin, San Jose and San Francisco all have smaller variance. That means all the schools in those counties perform well.
                     </p>
                     <div class='plotly-marg'>
-                    <img src ="img/Project02/bar_error_school.png" style="max-width: 100%;width: 800px;"  width="800">
-                </div>
+                        <img src ="img/Project02/bar_error_school.png" style="max-width: 100%;width: 800px;"  width="800">
+                    </div>
+                    <p><b>Schools scores distribution Vs. Housing prices</b> :
+                    This interactive plot shows the relationship between average median sold house price from zillow in each county and school scores in 2016. 
+                    The size of the bubble depends on the number of schools in that county. 
+                    The larger the bubble, the more school that county has.
+                    We can see that there is a positive correlation between these two variables. The higher the school score, the higher average sold house price. San Mateo and Marin have a good combination of the two.Tulane and Fresno have lowest school scores and average sold house price.
+                    The general trend is the same as the one in 2015. However, some counties has shifts in postion. For example, lake county has lower average school scores but higher average median sold house prices.
+                    <div class='plotly-marg'>
+                        <a href="https://plot.ly/~danielle91515/7/?share_key=6PYY3NPYqP7nrOXrpGXBCg" target="_blank" title="Average Sold Housing Price in 2016 v. School Scores in 2016" style="display: block; text-align: center;"><img src="https://plot.ly/~danielle91515/7.png?share_key=6PYY3NPYqP7nrOXrpGXBCg" alt="Average Sold Housing Price in 2016 v. School Scores in 2016" style="max-width: 50%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+                        <script data-plotly="danielle91515:7" sharekey-plotly="6PYY3NPYqP7nrOXrpGXBCg" src="https://plot.ly/embed.js" async></script>
+                    </div>
                  </div>
+            </div>
+        </div>
+        <div id="Results">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <h2>Results</h2>
+                    <p> According to time series analysis, each county in California has similar pattern with the overall sold price except San Francisco whose housing price did not decrease much even during the subprime mortgage crisis. Housing inventory dataset shows that house supply in California has negative relation with sold price. Both unemployment rate and criminal rate present negative relationship with housing price.
+                        <br> By analyzing different features that might relate to sold price in spacial aspect, we find out that almost all counties in California have positive growth rate of housing price from 2012 to 2016. Even though school scores in Northern California have higher value than those in Southern California, there is no difference of housing price between Southern and Northen California. What's more, income does not show significant relationship with housing price after exploring data in different counties. But there present positive relationship of sold price and school scores. Unemployment rate exhibit negative relationship with housing price. </br> 
+                    In sum, after comparing all those results for each county, we think Orange county is the most appropriate county when choosing to buy a house in California.</p>
+                </div>
             </div>
         </div>
         <!--========== PAGE LAYOUT ==========-->
