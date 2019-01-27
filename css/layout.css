@@ -38,7 +38,7 @@ p {
   font-size: 20px;
   font-weight: 400;
   font-family: Hind, sans-serif;
-  color: #a6a7aa;
+  color: #f3f3f3;
   line-height: 1.4;
   margin-bottom: 20px;
 }
@@ -62,6 +62,10 @@ a:focus, a:hover, a:active {
   outline: 0;
   color: #999caa;
   text-decoration: none;
+}
+
+.object-style {
+  vertical-align:middle ;
 }
 
 .link {
