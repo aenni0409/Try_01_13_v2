@@ -102,35 +102,48 @@
                 <p>A year ago, I graduated from one of most popular majors, <b>statistics</b>. 
                 Yeah, thanks to the trending of Big Data and AI. </p>
                 <p>Gradually, there are more and more data science related positions sprang up, such as data engineer, machine learning engineer, business analyst, ..., etc. People who work on data science think that they are data scientists. Really? That's an interesting question and there are tons of article have talked about these. </p>
-                <p>To know better about the difference, this project collected about 2000 job descriptions by searching position keywords, including data scientist, <b>data analyst</b>, <b>machine learning engineer</b>, <b>business analyst</b>, and <b>data engineer</b>, in the indeed.com and summarized the difference about those position. I usually used data science to explain the data. This time, I would like to use data to explain the data science. </p>
+                <p>To know better about the difference, this project collected about 2000 job descriptions by searching keywords, including <b>data scientist</b>, <b>data analyst</b>, <b>machine learning engineer</b>, <b>business analyst</b>, and <b>data engineer</b>, in the indeed.com and summarized the difference about those position. I usually used data science to explain the data. This time, I would like to use data to explain the data science. </p>
            </div>
         </div>
          <div id="Data">
             <div class="bg-color-sky-light" data-auto-height="true">
                 <div class="container content-lg">
                     <h2>Data</h2>
-                    <p>There are 1801 job post in total. The table shows the number of job descriptions in each searched title. The graph shows the distribtion of those titles in States. THe graph shows the percentage of jobs in each state. Also, includes the percentage of jobs for these five positions in each state.</p><br>
-                    <p>Most of jobs come from California. In NY, Data Analyst dominated that state because of the financial industry. 
-                    <object data="USADist.html" width="1200" height="600" align="middle">Warning: html could not be included!</object>
+                    <p>I applied web crawler in Python, removed the promoted job opening from data, and collected about 20 pages of jobs for each searching keywords. There are 1801 job post in total. 
+                    The table shows the number of job descriptions in each searched title. 
+                    </p>
+                    <div class='plotly_marg'>
+                        <img src ="Project_DSJob/NoJobsSummary.png" style="max-width: 100%;width: 600px;"  width="600">
+                    </div>
+                    <br>
+                    <p>The map below shows the percentage of jobs in each state. Also, includes the percentage of jobs for these five positions in each state.
+                    Most of jobs locate in California and Data Analyst dominated in New York because of the financial industry. Note that some of states only have less than 10 observations. Thereofore, the percentage might not be good explanation for those specific states.
+                    <object data="Project_DSJob/USADist.html" width="1000" height="500">Warning: html could not be included!</object>
                 </div>
             </div>
          <div id="Compare">
             <div class="container content-lg">
                     <h2>Comparison</h2>
-                    <p>According to the NLP from job description, Data Analyst focuses more on SQL, Tableau than Data Scientist. R and Python are the essential skills for the Data Scientist. People use Python for many reasons, including development, algorithm, and models. On the other hand, R helps data scientist to analyze data with statistical methods, models, and manulputaion.As a person graduated from statistics, I would say the weights of imporatnce between Python and R are equal.</p><br>
-                    <object  data="DAvsDS.html" width="1000" height="500" align="middle">Warning: html could not be included!</object>
-                    <object data="DSvsMLE.html" width="1000" height="500" align="middle">Warning: html could not be included!</object>                    
+                    <h3>Preprocessing</h3>
+                    <p>To have better understanding about what kind of technical skills in different positions require in the job description, I applied NLP and created a dictionary of programming language to fliter the programming language keywords from job description.<br>
+                    Then, calculated the relative frequency of each techincal skill keywords in those five positions to make comparison. In the plot, the size of bubble is the sum of relative frequency of two positions and I used "log" to display the axis in order to show the squeezed part of scatter points.</p> <br>
+                    <h3>Results</h3>
+                    <p>Data Analyst focuses more on SQL, Tableau than Data Scientist and R and Python are the essential skills for the Data Scientist. Data Sceintist also have higher relative frequency on some script programming languages including javascript, matlab, java which is aligned with the needs as a Data Scientist.  </p>
+                    <object  data="Project_DSJob/DAvsDS.html" width="1000" height="600" align="middle">Warning: html could not be included!</object><br>
+                    <br><br>
+                    <p>On the other hand, Machine Learning Enginner and Data Scientist have equalvant level on Python. However, Machine Learning Engineer requires more skills on script programming language, including C and java, and computation, such as scala and spark. </p>
+                    <object data="Project_DSJob/DSvsMLE.html" width="1000" height="600" align="middle">Warning: html could not be included!</object>                    
             </div>
         </div>
          <div id="More">
             <div class="container content-lg">
                 <h2>More</h2>
-                <h1><a href="https://towardsdatascience.com/do-you-really-need-a-data-scientist-fcdfc226f4e4" class="btn-theme-md text-uppercase">
-                Do you really need Data Scientist?</a></h1>
-                <h1><a href="https://towardsdatascience.com/what-is-the-key-skill-that-the-best-data-scientists-have-655edea228ac" class="btn-theme-md text-uppercase">
-                What is the key skill that the best data scientists have?</a></h1>
-               <h1><a href="https://www.datasciencecentral.com/profiles/blogs/general-myths-to-avoid-in-data-science-and-machine-learning" class="btn-theme-md text-uppercase">
-               General Myths to avoid in Data Science and Machine Learning</a></h1>
+                <h3><a href="https://towardsdatascience.com/do-you-really-need-a-data-scientist-fcdfc226f4e4" class="btn-theme-md text-uppercase">
+                Do you really need Data Scientist?</a></h3>
+                <h3><a href="https://towardsdatascience.com/what-is-the-key-skill-that-the-best-data-scientists-have-655edea228ac" class="btn-theme-md text-uppercase">
+                What is the key skill that the best data scientists have?</a></h3>
+               <h3><a href="https://www.datasciencecentral.com/profiles/blogs/general-myths-to-avoid-in-data-science-and-machine-learning" class="btn-theme-md text-uppercase">
+               General Myths to avoid in Data Science and Machine Learning</a></h3>
                 
 
                 
