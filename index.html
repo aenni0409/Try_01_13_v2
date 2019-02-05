@@ -318,7 +318,20 @@
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
+        
+		<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyDbrlSwI7EyNmEr2QlYQcZA-3vASRkG_XU",
+		    authDomain: "testing-project-2c308.firebaseapp.com",
+		    databaseURL: "https://testing-project-2c308.firebaseio.com",
+		    projectId: "testing-project-2c308",
+		    storageBucket: "testing-project-2c308.appspot.com",
+		    messagingSenderId: "628700654442"
+		  };
+		  firebase.initializeApp(config);
+		</script>
         <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
         <!-- CORE PLUGINS -->
         <script src="vendor/jquery.min.js" type="text/javascript"></script>
